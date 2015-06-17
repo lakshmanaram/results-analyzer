@@ -1,6 +1,6 @@
 # nitt-results-analyzer
 
-Requirements: python library selenium, Mozilla Firefox web browser
+Requirements: pythhon, python library selenium, Mozilla Firefox web browser
 
 All inputs are to be given during the runtime.
 
