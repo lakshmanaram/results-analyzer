@@ -17,7 +17,7 @@ def gpafunc(l,h,list):
                 no+=1
 def checkrno(rno):
     print "Checking roll number - Please Wait"
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome('/home/lakshmanaram/Documents/chromedriver')
     driver.get("http://www.nitt.edu/prm/nitreg/ShowRes.aspx")
     r=0
     flag=0
@@ -55,7 +55,7 @@ if(os.path.isfile("sem2.txt")):
 else:
     strength = input("Enter class strength          :")+1
     print "PLEASE DO NOT DISTURB THE FIREFOX BROWSER. This may take few minutes, Let it run in the background"
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome('/home/lakshmanaram/Documents/chromedriver')
     driver.get("http://www.nitt.edu/prm/nitreg/ShowRes.aspx")
     student_list = []
     rn=1
